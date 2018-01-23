@@ -2,6 +2,12 @@
   "version": "0.0.0",
   "main": "index.js",
   "author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
+  "standard": {
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
   "devDependencies": {
     "jest-cli": "^22.1.4",
     "js-yaml": "^3.10.0",
